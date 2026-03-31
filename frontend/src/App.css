@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: #fde7ef;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background: #fde7ef;
+}
+
+/* Card */
+.card {
+  background: #fff0f5;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0px 8px 20px rgba(255,79,135,0.1);
+  margin-bottom: 25px;
+}
+
+/* Titles */
+h1, h2 {
+  color: #ff4f87;
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(135deg,#ff6fa5,#ff9ac2);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff4f87;
+}
